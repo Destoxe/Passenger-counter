@@ -36,3 +36,14 @@ button {
     background: darkgreen;
 }
 
+@media only screen and (min-width: 768px) {
+    /* Apply styles for screens wider than 768px (tablets and PCs) */
+    h2 {
+        font-size: 50px; /* Reset font size for larger screens */
+    }
+
+    button {
+        width: 200px; /* Reset width for larger screens */
+    }
+}
+
